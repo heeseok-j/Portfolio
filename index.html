@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEESEOK Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for The world best engineer HEESEOK"
+    />
+    <meta name="author" content="HEESEOK" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/7d707db9ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navber -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img class="navbar__logo__icon" src="imgs/favicon.png" alt="" />
+        <a href="#">HS</a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#skills">Skills</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">
+          Testimonials
+        </li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <button class="navbar__toggle__btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img
+          class="home__avatar"
+          src="imgs/profile.jpg"
+          alt="HEESEOK profile photo"
+        />
+        <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
+        <h2 class="home__description">
+          エンジニアを目指し、全てできる人になりたい
+        </h2>
+        <button class="home__contact" data-link="#contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section__container">
+        <h1>About me</h1>
+        <p>
+          前職はプラントエンジニアとして工事を行うため、協力会社の人々とお互いの意見や進み方等、コミュニケーションを円滑にする必要がありました。
+          一人ではできないことを他の人と一緒に仕事をしながら身につけたスキルを活かしていきたいと思います。現在、一人で独学で少しずつ勉強していますが、未来には立派なエンジニアになれる人です。
+          自分という人は楽しくいきていこうとする人、何よりも頂点を目指して走り続ける人です。
+        </p>
+        <div class="about__majors">
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h2 class="major__title">HTML</h2>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h2 class="major__title">CSS</h2>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h2 class="major__title">Javascript</h2>
+          </div>
+        </div>
+        <div class="about__jobs">
+          <div class="job">
+            <img
+              class="job__logo"
+              src="imgs/jobs/logo-sankyu.png"
+              alt="sankyu"
+            />
+            <div class="job__description">
+              <p class="job__name">
+                山九（株）鹿嶋支店<br />
+                機工2Gr 施工管理監督者
+              </p>
+              <p class="job__period">2020. 12月 ~ 2022. 9月</p>
+            </div>
+          </div>
+          <div class="job">
+            <img class="job__logo" src="imgs/jobs/logo-soka.png" alt="soka" />
+            <div class="job__description">
+              <p class="job__name">
+                創価大学 (日本)<br />
+                交換留学
+              </p>
+              <p class="job__period">2018. 4月 ~ 2019. 2月</p>
+            </div>
+          </div>
+          <div class="job">
+            <img class="job__logo" src="imgs/jobs/logo-army.png" alt="soka" />
+            <div class="job__description">
+              <p class="job__name">
+                軍隊 <br />
+                兵役 (韓国)
+              </p>
+              <p class="job__period">2013. 7月 ~ 2015. 4月</p>
+            </div>
+          </div>
+          <div class="job">
+            <img
+              class="job__logo"
+              src="imgs/jobs/logo-kyungnam.png"
+              alt="kyungnam"
+            />
+            <div class="job__description">
+              <p class="job__name">
+                Kyungnam University (韓国)<br />
+                機械工学科卒業
+              </p>
+              <p class="job__period">2012. 3月 ~ 2019. 8月</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__containal">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value1"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value2"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Javascript</span>
+                <span>30%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value3"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JSON</span>
+                <span>10%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value4"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn active" data-filter="all">
+            All <span class="category__count" data-filter="all">1</span>
+          </button>
+          <button class="category__btn" data-filter="navbar">
+            Navbar <span class="category__count" data-filter="navbar">1</span>
+          </button>
+        </div>
+        <div class="work__projects">
+          <a
+            href="https://github.com/heeseok-j/responsive-nav-bar"
+            class="project"
+            target="blank"
+            data-type="navbar"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/responsive_web.jpg"
+              alt="responsive_navbar"
+            />
+            <div class="project__description">
+              <h3>Responsive_navbar</h3>
+              <span>HTML, CSS with media query </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="section__container">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonial">
+          <img
+            class="testimonial__avatar"
+            src="imgs/testimonial/people.jpg"
+            alt=""
+          />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis,
+              rem, earum obcaecati id ea ducimus unde, beatae esse aperiam
+              recusandae vero placeat dolore. Suscipit, doloribus non illo
+              nostrum aspernatur ad praesentium excepturi fuga aliquid optio,
+              repellat at necessitatibus! Et, sint.
+            </p>
+            <p class="name"><a href="#">guest132</a> / 山九</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, ullam quis alias rerum aliquam facilis molestiae
+              ipsam aspernatur tempora amet eveniet quo unde nisi quasi
+              obcaecati? Temporibus molestias in eveniet?
+            </p>
+            <p class="name"><a href="#">guest247</a> / 日本の友達</p>
+          </div>
+          <img
+            class="testimonial__avatar"
+            src="imgs/testimonial/women_people.jpg"
+            alt=""
+          />
+        </div>
+        <div class="testimonial">
+          <img
+            class="testimonial__avatar"
+            src="imgs/testimonial/people.jpg"
+            alt=""
+          />
+          <div class="testimonial__speech-bubble">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              eius officiis iure sint alias odio ipsa quam voluptates maxime eos
+              non asperiores, cumque vero error eligendi consectetur sunt, vel
+              recusandae. Ducimus consequuntur iste omnis quibusdam cupiditate.
+              Praesentium voluptates corrupti reiciendis iusto mollitia
+              voluptatum adipisci eligendi nisi ea? Aliquid culpa molestias
+              necessitatibus repudiandae possimus, quam quaerat similique velit
+              enim ad voluptates.
+            </p>
+            <p class="name"><a href="#">people</a> / 創価大学</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">sayjhs0806@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/heeseok-j" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="far fa-hand-point-left"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Top arrow -->
+    <button class="top__arrow">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
