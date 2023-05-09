@@ -301,7 +301,7 @@ p {
 }
 
 .skill__value2 {
-  width: 90%;
+  width: 70%;
   height: 10px;
   background-color: var(--color-orange);
 }
